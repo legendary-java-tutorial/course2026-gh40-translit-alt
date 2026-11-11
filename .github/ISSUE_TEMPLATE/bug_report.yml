@@ -1,0 +1,17 @@
+name: Ошибка в транслитерации
+description: Слово переводится не так
+title: "Ошибка: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes: {label: Шаги, description: "Команда или код, например npx translit \"Щука\""}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Ожидание}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Результат}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Версия translit}
+    validations: {required: true}
